@@ -19,6 +19,8 @@ customer.address = {
   zipcode: "AB12 3CD",
 };
 
+// I originally had written every property separately, not inside one object
+
 console.log(customer.address);
 
 // Task 3
@@ -41,9 +43,13 @@ console.log(product.price);
 const total = product.price * 7;
 console.log(`Total: $${product.price * 7}`);
 
+// I originally attempted to change the value of product.price but it was not working, so I initally stopped here
+
 // Task 6
 
 console.log(total >= 100);
+
+// Originally wrote this as an 'if' startement but was not working
 
 // Task 7
 
